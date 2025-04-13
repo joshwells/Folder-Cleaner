@@ -4,7 +4,6 @@ date
 echo
 
 # Remove all files older than X days
-# ls -l /Users/jwells30/Downloads
 echo Removing the following old files:
 find $1 -type f -mtime +$2 -print -delete
 echo
